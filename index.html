@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Formulário</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>Formulário de cadastro</h1>
+    <ul>
+      <li>Nenhum campo pode estar vazio</li>
+      <li>Usuário só poderá conter letras e/ou números</li>
+      <li>Usuário deverá ter entre 3 e 12 caracteres</li>
+      <li>Senha precisará conter entre 6 e 12 caracteres</li>
+      <li>Repetir senha deverá ser igual a senha digitada</li>
+    </ul>
+
+
+    <form class="form" action="">
+
+      
+      <label for="idName">Nome:</label>
+      <input class="input" type="text" name="name" id="idName">
+        
+      <label for="idLastName">Sobrenome:</label>
+      <input class="input" type="text" name="lastName" id="idLastName">
+      
+      <label for="idCpf">CPF:</label>
+      <input class="input" type="text" name="cpf" id="idCpf">    
+      
+      <label for="idUser">Usuário:</label>
+      <input class="input" type="text" name="user" id="idUser">
+      
+      <label for="idPassword">Senha:</label>
+      <input class="input" type="password" name="password" id="idPassword">
+        
+      <label for="idConfirmPassword">Repetir senha:</label>
+      <input class="input" type="password" name="confirmPassword" id="idConfirmPassword">
+
+      <button class="sendButton">Enviar</button>
+
+    </form>
+
+  </section>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
