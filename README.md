@@ -2,4 +2,4 @@
 
 Download this repository and open file index.html in your browser from your preference.
 
-[Click here for see the form validation](https://mateusesm.github.io/form-validation/)
+[Click here for to see the form validation](https://mateusesm.github.io/form-validation/)
